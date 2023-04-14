@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos2.css">
+	<link rel="stylesheet" href="index.html">
+    <script src="java/funcion.js"></script>
+    <title>Ejercicio 2</title>
+</head>
+<html>
+<body>
+	<h1>Calculadora de sueldo de vendedor</h1>
+	<form>
+		<label for="totalVendido">Ingrese el importe total vendido del mes:</label>
+		<input type="number" id="totalVendido" name="totalVendido"><br><br>
+		<label for="hijosEnEdadEscolar">Ingrese la cantidad de hijos en edad escolar:</label>
+		<input type="number" id="hijosEnEdadEscolar" name="hijosEnEdadEscolar"><br><br>
+		<button type="button" onclick="calcularSueldo()">Calcular sueldo</button>
+	</form>
+	<div id="comision"></div>
+	<div id="bonificacion"></div>
+	<div id="sueldoBruto"></div>
+	<div id="descuento"></div>
+	<div id="sueldoNeto"></div>
+</body>
+</html>

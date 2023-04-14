@@ -1,0 +1,29 @@
+/* Estilos para los botones de los ejercicios */
+button {
+	margin: 30px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: lightblue;
+	cursor: pointer;
+	width: 400px;
+}
+
+/* Estilos para el contenedor de los ejercicios */
+#ejercicios-container {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: lightgrey;
+}
+h1
+{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: lightblue;
+	cursor: pointer;
+}
